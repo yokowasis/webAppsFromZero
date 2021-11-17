@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikasi Pertama</title>
     <script>
+        var jumlah = 0;
 
-        var panjang = 10;
-        var lebar = 5;
-        var luas = panjang * lebar;
-
-        function halo() {
-            alert ("Luas Persegi Panjang adalah : " + luas)
+        function tambah() {
+            jumlah = jumlah + 1;
+            document.getElementById("jumlah").innerHTML = jumlah;
         }
-        halo();
     </script>
 </head>
 <body>
-    Halo Yokowasis    
+    <div>
+        <button onclick="tambah()">Tekan Sini</button>
+    </div> 
+    <div id="jumlah">
+    </div>
 </body>
 </html>
