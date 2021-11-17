@@ -5,20 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikasi Pertama</title>
-    <script>
-        var jumlah = 0;
 
-        function tambah() {
-            jumlah = jumlah + 1;
-            document.getElementById("jumlah").innerHTML = jumlah;
-        }
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
     </script>
 </head>
 <body>
-    <div>
-        <button onclick="tambah()">Tekan Sini</button>
-    </div> 
-    <div id="jumlah">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-1">INTRO TO BOOTSTRAP</h1>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Ini adalah Sebuah Paragraf. Tempat menulis informasi - informasi penting</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-primary">Tombol</button>
+            </div>            
+        </div>
     </div>
 </body>
 </html>
